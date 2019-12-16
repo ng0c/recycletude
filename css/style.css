@@ -1,0 +1,178 @@
+#title {
+  font-weight: bold;
+  margin-bottom: 3em;
+}
+
+#navbar,
+#search {
+  font-weight: bold;
+  background: white;
+}
+
+#logo {
+  align-self: flex-start;
+  padding-right: 2px;
+  padding-top: 1px;
+  margin-top: 0.5em;
+  margin-right: 0.5em;
+}
+
+#sub-head {
+  font-size: 3em;
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+
+#selector {
+  height: auto;
+  width: 100%;
+}
+
+#carousel {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  margin-bottom: 3em;
+  padding-bottom: 50px;
+}
+
+#wrapper {
+  max-width: 1050px;
+  margin: 60px auto 60px auto;
+  background-color: none;
+}
+
+#outer {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.itemwrapper {
+  display: table-cell;
+  vertical-align: top;
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#wrapper p {
+  font-weight: bold;
+  margin-right: 5em;
+  font-size: 20px;
+}
+
+#about {
+  font-weight: bold;
+  font-size: 3em;
+  padding-top: 15px;
+}
+
+p {
+  text-align: center;
+  text-justify: inter-word;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#codefirstgirls {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  margin-bottom: 15em;
+}
+
+#social {
+	font-size: 2em;
+}
+
+form,
+h2 {
+  border: 4px solid #f1f1f1;
+  background: #f1f1f1;
+  margin-top: 3em;
+}
+
+input[type=text],
+input[type=submit] {
+  width: 100%;
+  padding: 10px;
+  margin: 12px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=checkbox] {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+.footer {
+  padding: 40px 0;
+  background: #333;
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+  direction: rtl;
+}
+
+.footer a {
+  color: #bebebe;
+  text-decoration: none;
+  transition: color .2s ease-in-out;
+}
+
+.footer a:hover,
+.footer a:focus {
+  color: #fff;
+}
+
+.footer__nav,
+.footer__copy,
+.footer__author {
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.footer__content {
+  display: inline-block;
+  background-color: #333;
+}
+
+.footer__nav,
+.footer__content {
+  direction: ltr;
+}
+
+.footer__copy,
+.footer__author {
+  margin: 0;
+}
+
+.footer__nav ul {
+  margin: 0 -10px;
+  padding: 0;
+  list-style: none;
+}
+
+.footer__nav ul li {
+  display: inline-block;
+  padding: 0 10px;
+}
